@@ -10,7 +10,6 @@ app.get('/', function (request, response) {
     response.send('Thiago Xavier');
 });
 
-
 //A porta que o node irá expor..
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
